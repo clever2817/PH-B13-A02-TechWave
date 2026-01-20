@@ -276,5 +276,22 @@ nav > button {
     bottom: 2%;
     left: 4%;
   }
+
+  /* About Section */
+  .about-container{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .about-texts > h2{
+    font-size: 32px;
+  }
+
+  .about-card-container{
+    margin-top: 80px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
   
 }
