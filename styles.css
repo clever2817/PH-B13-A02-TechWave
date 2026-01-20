@@ -501,4 +501,26 @@ nav > button {
   .featured-card h3{
     font-size: 20px;
   }
+
+  /* Host Section */
+  .host > h2{
+    font-size: 32px;
+  }
+
+  .host-container{
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    text-align: center;
+  }
+
+  .host-name{
+    font-size: 24px;
+  }
+
+  .host-socials{
+    justify-content: center;
+  }
 }
