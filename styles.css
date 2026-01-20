@@ -63,7 +63,7 @@ nav > a > h1 > span {
   font-weight: 500;
 }
 
-nav > button {
+.nav-btn {
   width: 135px;
   height: 44px;
   border-radius: 10000px;
@@ -83,7 +83,10 @@ nav > button {
   font-weight: 600;
   color: white;
   gap: 5px;
+  cursor: pointer;
+
 }
+
 
 /* Hero Section Styles */
 .hero-container {
@@ -158,6 +161,7 @@ nav > button {
   color: white;
   gap: 8px;
   padding: 12px 20px;
+  cursor: pointer;
 }
 
 .hero-btn1 {
@@ -389,7 +393,6 @@ nav > button {
   padding: 10px;
 }
 
-
 /* Footer Section Styles */
 .footer-container {
   height: 412px;
@@ -399,7 +402,7 @@ nav > button {
   background-position: center;
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -408,12 +411,12 @@ nav > button {
   padding-left: 50px;
 }
 
-.footer-content h1{
+.footer-content h1 {
   font-size: 52px;
   font-weight: 800;
 }
 
-.footer-content > h1 > span{
+.footer-content > h1 > span {
   background: var(
     --Linear,
     linear-gradient(
@@ -427,22 +430,20 @@ nav > button {
   -webkit-text-fill-color: transparent;
 }
 
-.footer-container p{
+.footer-container p {
   font-weight: 100;
 }
 
-.footer-links{
+.footer-links {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
-.footer-icon{
+.footer-icon {
   display: flex;
   gap: 10px;
 }
-
-
 
 /* Responsive Designs */
 @media only screen and (max-width: 576px) {
@@ -578,7 +579,7 @@ nav > button {
   }
 
   /* Footer Section */
-  .footer-links{
-    grid-template-columns: repeat(2,1fr);
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
