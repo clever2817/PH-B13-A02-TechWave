@@ -389,6 +389,8 @@ nav > button {
   padding: 10px;
 }
 
+
+/* Footer Section Styles */
 .footer-container {
   height: 412px;
   background-image: url("./assets/footer-bg.png");
@@ -407,7 +409,7 @@ nav > button {
 }
 
 .footer-content h1{
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 800;
 }
 
@@ -573,5 +575,10 @@ nav > button {
 
   .host-socials {
     justify-content: center;
+  }
+
+  /* Footer Section */
+  .footer-links{
+    grid-template-columns: repeat(2,1fr);
   }
 }
