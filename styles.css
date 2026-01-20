@@ -431,4 +431,27 @@ nav > button {
   .card-4{
     grid-column: 1;
   }
+
+
+  /* Featured Episode Section */
+  .featured-container{
+    max-width: 500px;
+  }
+
+  .featured-container > h2{
+    font-size: 32px;
+  }
+
+  .featured-card-container{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+  }
+
+  .featured-card{
+    width: 100%;
+  }
+
+  .featured-card h3{
+    font-size: 20px;
+  }
 }
