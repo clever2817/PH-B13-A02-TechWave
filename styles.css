@@ -31,6 +31,10 @@ a {
   justify-content: space-between;
 }
 
+.ham-menu{
+    display: none;
+}
+
 nav > a > h1 {
   font-weight: 800;
 }
@@ -75,4 +79,25 @@ nav > button {
   font-weight: 600;
   color: white;
   gap: 5px;
+}
+
+
+
+
+
+/* Responsive Designs */
+
+@media only screen and (max-width: 576px) {
+    .ham-menu{
+        display: inline;
+    }
+
+    .nav-menus, nav > button{
+        display: none;
+    }
+
+    .nav-container{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
