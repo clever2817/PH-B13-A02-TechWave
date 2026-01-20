@@ -452,7 +452,7 @@ nav > a > h1 > span {
   }
 
   .nav-menus,
-  nav > button {
+  .nav-btn {
     display: none;
   }
 
