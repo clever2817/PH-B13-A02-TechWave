@@ -343,6 +343,53 @@ nav > button {
   font-weight: 500;
 }
 
+/* Host Section Styles */
+.host > h2{
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.host-container{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+.host-right{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.host-name{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.host-description{
+  font-weight: 100;
+}
+
+.host-socials{
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(83, 60, 114, 1);
+  padding: 10px;
+}
+
 
 /* Responsive Designs */
 @media only screen and (max-width: 576px) {
