@@ -345,5 +345,29 @@ nav > button {
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
   }
+
+  /* Choose Section */
+  .choose-container{
+    max-width: 500px;
+  }
+
+  .choose-container > h2{
+    font-size: 32px;
+  }
   
+  .choose-card-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .card-1{
+    grid-row: 1;
+  }
+  
+  .card-2, .card-3{
+    grid-column: 1;
+  }
+  
+  .card-4{
+    grid-column: 1;
+  }
 }
