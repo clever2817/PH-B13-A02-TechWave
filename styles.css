@@ -230,6 +230,58 @@ nav > button {
   text-align: center;
 }
 
+/* Choose Section Styles */
+.choose-container > h2{
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.choose-card-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.choose-card{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 40px;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+}
+
+.card-1{
+  grid-row: 1 / span 2;
+}
+
+.card-2, .card-3{
+  grid-column: 2 / span 2;
+}
+
+.card-4{
+  grid-column: 1 / span 2;
+}
+
+.choose-card img{
+  width: 60px;
+  height: 60px;
+}
+
+.choose-card h3{
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.choose-card p{
+  font-weight: 100;
+}
+
 
 /* Responsive Designs */
 @media only screen and (max-width: 576px) {
@@ -279,7 +331,7 @@ nav > button {
 
   /* About Section */
   .about-container{
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
     margin-top: 50px;
   }
