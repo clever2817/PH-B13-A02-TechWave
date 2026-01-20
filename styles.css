@@ -24,6 +24,10 @@ a {
 }
 
 /* Navbar Styles */
+#upper-nav{
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
+}
+
 .nav-container {
   height: 92px;
   display: flex;
